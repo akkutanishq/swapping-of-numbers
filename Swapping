@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdbool.h>
+main()
+{
+int age=0;
+char name[30];
+
+printf("what is your name ? ");
+
+scanf("%s", name );
+
+printf("what is your age ? ");
+
+scanf("%d",&age );
+
+printf("%s is your name and your age is %d\n", name,age);
+
+printf("and you earn 5000$/per month");
+
+return (0);
+}
